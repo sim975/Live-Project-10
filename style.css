@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background: url(./assets/interior.jpg) no-repeat center center;
+    background-size: cover;
+ }
+
+ .navbar{
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
+    
+ }
+
+ .navbar ul{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 50px;
+    
+    border-bottom: solid 2px white;
+    
+ }
+
+ h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    
+ }
+ 
+ .navbar ul li{
+    margin-left: 80px;
+    list-style: none;
+    margin-bottom: 50px;
+    font-weight: bold;
+ }
+
+ #number{
+    margin-left: 100px;
+    font-weight: bold;
+ }
+ 
+.navbar img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 71%;
+    top: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.interior{
+    float: right;
+    width: 300px;
+    height: 200px;
+    
+    background-color:rgb(67, 84, 100);
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.interior img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.interior p{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+
+.container >  p{
+    font-size: 75px;
+    margin-top: 100px;
+    margin-left: 150px;
+    line-break: auto;
+    font-weight: 150px;
+}
+
+button{
+    margin-top: 100px;
+    border-radius: 25px;
+    border: solid 2px white;
+    background: transparent;
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 5px white, 5px 5px 5px white;
+    
+    
+}
+.idea{
+    float: right;
+    width: 300px;
+    height: 200px;
+    
+    background-color:rgb(67, 84, 100);
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.idea img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.idea p{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 150px;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        height: 100vh;
+        background: url(./assets/interior.jpg) no-repeat center center;
+        background-size: cover;
+     }
+    
+
+
+    .interior{
+        float: left;
+        width: 300px;
+        height: 200px;
+        
+        background-color:rgb(67, 84, 100);
+        margin-top: 100px;
+        margin-left: 100px;  
+    }
+
+    .navbar ul li{
+        margin-left: 10px;
+        list-style: none;
+        margin-bottom: 50px;
+        font-weight: bold;
+     }
+    }
